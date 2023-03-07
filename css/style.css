@@ -117,6 +117,7 @@ background: rgba(37, 36, 32, 0.5);
 }
 .footer-section-lists{
     list-style-type: none;
+    width: 224px;
 }
 .footer-section-list-items
 {
