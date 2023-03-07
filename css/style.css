@@ -5,6 +5,7 @@
     height: 59.18px;
 }
 .header-list-item{
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
@@ -15,6 +16,7 @@ text-decoration: none;
 color: #000000;
 }
 .site-header-button{
+font-family: 'Roboto';
 width: 155px;
 height: 39px;
 background: #FF7500;
@@ -27,7 +29,7 @@ text-decoration: none;
 }
 /*main-hero*/
 .hero{
-    background: #252420;
+    background: #252420;font-family: 'Roboto';
 }
 .line{
     width: 80px;
@@ -35,6 +37,7 @@ text-decoration: none;
     background: #FF7500;
 }
 .hero-section-text{
+font-family: 'Roboto Condensed';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
@@ -58,8 +61,12 @@ color: #FFFFFF;
     height: 510px;
 }
 /*main-fifa*/
+.fifa{
+    font-family: 'Roboto';
+}
 .fifa-text{
-    font-weight: 700;
+font-family: 'Roboto Condensed';
+font-weight: 700;
 font-size: 72px;
 line-height: 120%;
 letter-spacing: 0.5px;
@@ -72,6 +79,7 @@ height: 100px;
 background: rgba(255, 117, 0, 0.2);
 }
 .fifa-text-small{
+font-family: 'Roboto Condensed';
 font-weight: 700;
 font-size: 24px;
 line-height: 120%;
@@ -89,7 +97,7 @@ color: #000000;
 }
 /*main-section-bottom*/
 .bottom{
-    background: #252420;
+    background: #252420;font-family: 'Roboto';
     
 }
 strong{
@@ -101,6 +109,7 @@ height: 440px;
 }
 /*Footer*/
 footer{
+    font-family: 'Roboto';
     background: #F8F8F8;  
 }
 .footer-section-img{
