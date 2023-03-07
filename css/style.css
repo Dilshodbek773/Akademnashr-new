@@ -1,8 +1,20 @@
 /* SITE  HEADER */
-
+.site-header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.site-header-actions{
+    display: flex;  
+    align-items: center;
+}
 .site-header-img{
     width: 227px;
     height: 59.18px;
+}
+.header-list{
+    display: flex;
+
 }
 .header-list-item{
 font-family: 'Roboto';
@@ -29,6 +41,9 @@ text-decoration: none;
 }
 /*main-hero*/
 .hero{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
     background: #252420;font-family: 'Roboto';
 }
 .line{
@@ -72,6 +87,10 @@ line-height: 120%;
 letter-spacing: 0.5px;
 color: #000000;
 }
+.featers-list{
+    display: flex;
+    justify-content: space-between;
+}
 .fifa-img
 {
 width: 100px;
@@ -98,7 +117,8 @@ color: #000000;
 /*main-section-bottom*/
 .bottom{
     background: #252420;font-family: 'Roboto';
-    
+    display: flex;
+    align-items: center;
 }
 strong{
     color: #FF7500;
@@ -112,6 +132,11 @@ footer{
     font-family: 'Roboto';
     background: #F8F8F8;  
 }
+.footer-section-2{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
 .footer-section-img{
 width: 24px;
 height: 24px;
@@ -124,9 +149,18 @@ height: 2px;
 background: rgba(37, 36, 32, 0.5);
 
 }
+.footer-section-list{
+display: flex;
+justify-content: center;
+
+}
+.foofer{
+    display: flex;
+}
 .footer-section-lists{
     list-style-type: none;
     width: 224px;
+    
 }
 .footer-section-list-items
 {
