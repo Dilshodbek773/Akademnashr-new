@@ -1,8 +1,37 @@
 /* SITE  HEADER */
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*:focus{
+    outline:
+    2px dotted #FF7500
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .site-header{
  display: flex;
  align-items: center;
  justify-content: space-between;
+ border-top: 5px solid #FF7500 ;
+}
+.site-header-items{
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .site-header-actions{
     display: flex;  
@@ -21,7 +50,11 @@ opacity: 0.8;
     }
 .header-list{
     display: flex;
+    margin: 0px;
 
+}
+.nav-nav{
+    margin-right: 32px;
 }
 .header-list-item{
 font-family: 'Roboto';
@@ -33,6 +66,10 @@ letter-spacing: 1px;
 text-transform: uppercase;
 text-decoration: none;
 color: #000000;
+padding-top: 12px;
+padding-right: 24px;
+padding-bottom: 12px;
+padding-left: 24px;
 }
 .header-list-item-active{
     transition: opacity 0.4s ease,color 0.4s ease;
@@ -44,6 +81,7 @@ color: #000000;
 opacity: 0.6;
 }
 .site-header-button{
+display: inline-block;
 font-family: 'Roboto';
 width: 155px;
 height: 39px;
@@ -55,6 +93,8 @@ letter-spacing: 0.5px;
 color: #FFFFFF;
 text-decoration: none;
 transition: opacity 0.4s ease,color 0.4s ease;
+border-radius: 4px;
+
 }
 .site-header-button:hover{
     opacity: 0.8;
@@ -68,13 +108,20 @@ transition: opacity 0.4s ease,color 0.4s ease;
     align-items: center;
     display: flex;
     background: #252420;font-family: 'Roboto';
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .line{
     width: 80px;
     height: 3px;
     background: #FF7500;
+    border: none;
+    margin: 0px;
+    margin-bottom: 40px;
 }
 .hero-section-text{
+    margin-top: 0px;
+    margin-bottom: 24px;
 font-family: 'Roboto Condensed';
 font-style: normal;
 font-weight: 700;
@@ -87,22 +134,29 @@ letter-spacing: 0.5px;
 color: #FFFFFF;
 }
 .hero-section-paragraph{
+    margin-top: 0px;
     font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.5px;
 color: #FFFFFF;
-
+margin-top: 0px;
+margin-bottom: 32px;
 }
 .hero-section-img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 /*main-fifa*/
 .fifa{
     font-family: 'Roboto';
+    padding-top: 210px;
+    padding-bottom: 210px;
 }
 .fifa-text{
+    margin-top: 0px;
+    margin-bottom: 72px;
 font-family: 'Roboto Condensed';
 font-weight: 700;
 font-size: 72px;
@@ -111,14 +165,23 @@ letter-spacing: 0.5px;
 color: #000000;
 }
 .featers-list{
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
+    padding: 0px;
+}
+.fd{
+    margin-right: 40px;
 }
 .fifa-img
 {
 width: 100px;
 height: 100px;
 background: rgba(255, 117, 0, 0.2);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .fifa-text-small{
 font-family: 'Roboto Condensed';
@@ -142,6 +205,9 @@ color: #000000;
     background: #252420;font-family: 'Roboto';
     display: flex;
     align-items: center;
+    border-radius: 12px;
+    padding: 64px;
+
 }
 strong{
     color: #FF7500;
@@ -153,7 +219,9 @@ height: 440px;
 /*Footer*/
 footer{
     font-family: 'Roboto';
-    background: #F8F8F8;  
+    background: #F8F8F8;
+    padding-top: 56px;
+    padding-bottom: 56px;  
 }
 .footer-section-2{
     display: flex;
@@ -170,6 +238,12 @@ height: 24px;
 background: #FF7500;
 color: rgba(255, 117, 0, 1);
 }
+.footer-section-list ul{
+padding: 0px;
+}
+.footer-section-lists{
+    padding: 0px;
+}
 .footer-section-lists a{
     color: #252420;
 }
@@ -184,6 +258,7 @@ color: rgba(255, 117, 0, 1);
 width: 1100px;
 height: 2px;
 background: rgba(37, 36, 32, 0.5);
+border: 0px;
 
 }
 .footer-section-list{
@@ -191,6 +266,7 @@ display: flex;
 justify-content: center;
 
 }
+
 .foofer{
     display: flex;
 }
@@ -198,6 +274,9 @@ justify-content: center;
     list-style-type: none;
     width: 224px;
     
+}
+.footer-section-lists li{
+    margin-bottom: 16px;
 }
 .footer-section-list-items
 {
